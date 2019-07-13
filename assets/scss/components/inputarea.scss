@@ -1,0 +1,46 @@
+.inputarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 0;
+  position: relative;
+  @media (min-width: $tab-width) {
+      flex-direction: row;
+    }
+  &__text {
+    color: gray;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    border: none;
+    @media (min-width: $tab-width) {
+        width: 88%;
+        margin-bottom: 0;
+      }
+  }
+  &__submit {
+    width: 100%;
+    height: 40px;
+    background: $yellow;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid $yellow;
+    @media (min-width: $tab-width) {
+        width: 11%;
+    }
+    &:hover {
+      background-color: black;
+      color: $yellow;
+      border: 2px solid $yellow;
+      transition: background-color .3s, color .3s, border .3s;
+    }
+  }
+  &__error {
+    position: absolute;
+    bottom: 15px;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,13 @@
+.tablet {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  position: relative;
+  animation: tablet-anim 1s;
+  &__logo {
+    position: absolute;
+    animation: logo-anim 2s;
+  }
+}

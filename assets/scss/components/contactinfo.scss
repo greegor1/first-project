@@ -1,0 +1,13 @@
+.contactinfo {
+  color: gray;
+  width: 100%;
+  text-align: center;
+  @media (min-width: $tab-width) {
+      width: 50%;
+      text-align: left;
+  }
+  @media (min-width: $desc-width) {
+      width: 20%;
+      text-align: left;
+  }
+}

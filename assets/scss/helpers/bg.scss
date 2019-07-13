@@ -1,0 +1,11 @@
+.bg-yellow {
+  background: $yellow;
+}
+
+.bg-black {
+  background: black;
+  color: $yellow;
+  p {
+    color: gray;
+  }
+}

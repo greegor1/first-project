@@ -1,0 +1,33 @@
+.example {
+  width: 100%;
+  @media (min-width: $tab-width) {
+    width: 50%;
+    text-align: left;
+  }
+  @media (min-width: $desc-width) {
+    width: 80%;
+    text-align: left;
+  }
+  &__list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+  }
+  &__list-item {
+    width: 50%;
+    text-align: center;
+    padding: 50px 0 0;
+    @media (min-width: $tab-width) {
+      padding: 0 0 50px;
+    }
+    @media (min-width: $desc-width) {
+      width: 25%;
+      padding: 0;
+      text-align: left;
+      padding-left: 140px;
+    }
+  }
+}

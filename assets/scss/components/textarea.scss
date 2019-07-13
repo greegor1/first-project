@@ -1,0 +1,10 @@
+.textarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+  &__header {
+      padding-right: 100px;
+  }
+}

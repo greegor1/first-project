@@ -1,0 +1,15 @@
+.slick {
+  &-dots {
+    height: auto;
+    button {
+      background: gray !important;
+      border-radius: 50%;
+      opacity: .5;
+    }
+  }
+  &-active {
+    button {
+      opacity: 1;
+    }
+  }
+}

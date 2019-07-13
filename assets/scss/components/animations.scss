@@ -1,0 +1,35 @@
+@keyframes tablet-anim {
+  0% {
+    right: -450px;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes top-to-bottom-anim {
+  0% {
+    top: -450px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes logo-anim {
+  0% {
+    opacity: 0;
+    transform: scale(0) rotate(-270deg);
+    transform-origin: bottom right;
+  }
+  50% {
+    opacity: 0;
+    transform: scale(0) rotate(-270deg);
+    transform-origin: bottom right;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+    transform-origin: bottom right;
+    }
+}
